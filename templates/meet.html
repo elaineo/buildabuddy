@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block pageheader %}
+Meet Your Buddy
+<small>Bot</small>
+{% endblock %}
+
+
+{% block content %}
+
+<img src="static/imgs/0.png" class="img-circle" alt="User Image">
+Marylou
+<div class="row">
+<div class="col-md-5"></div>
+<div class="col-md-2"><button type="button" id="chat" class="btn btn-block btn-primary">Start Chatting</button></div>
+<div class="col-md-5"></div>
+{% endblock %}
+
+{% block jscript %}
+<script>
+$( document ).ready(function() {
+  $('#chat').click(function(){
+    window.location = '/chat';
+  });
+});
+</script>
+{% endblock %}
