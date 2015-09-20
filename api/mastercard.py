@@ -3,6 +3,15 @@ import requests
 
 
 def lookup_cc(cc_number):
+    """
+    lookup_cc('5343434343434343') # stolen
+    lookup_cc('5105105105105100') # fraud
+    lookup_cc('6011111111111117') # unauthorized use
+    lookup_cc('5305305305305300') # capture card
+    lookup_cc('5222222222222200') # lost
+    lookup_cc('4444333322221111') # counterfeit
+    lookup_cc('343434343434343') # no listed
+    """
     d = {}
     headers = {'Content-Type': 'application/xml'}
     xml_body = '<AccountInquiry><AccountNumber>%s</AccountNumber></AccountInquiry>' % cc_number
