@@ -1,6 +1,10 @@
 from data import *
 import math
 
+BOTS = ["annefrank", "bierce", "bookerwashington", "buffalobill", "carnegie", 
+        "carson", "cruz", "darwin", "hillaryclinton", "paul", "poehler", "roosevelt",
+        "tinafey", "trump", "twain"]
+
 # receive two JSON personality profiles
 # determine euclidean distance
 def similarity(origin, target):
@@ -14,3 +18,7 @@ def similarity(origin, target):
 def flat_traits(person):
   traits = person.get("tree").get("children")[0].get("children")[0]
   return traits.get("children")
+
+def find_bot(target):
+    r = sort(map(similarity_file, BOTS))
+    return r[0]
