@@ -52,7 +52,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
     font-weight: 600;
     font-size: 1.2em;
   }
-
+  h1 {
+    font-weight: 700;
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);
+  }
+  .watson {
+    position: absolute;
+    left: 205px;
+    bottom: 40px;
+    width: 130px;
+  }
   </style>
   </head>
   <!--
@@ -196,7 +205,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <h1>
             {% block pageheader %}
             Page Header
-            <small>Optional description</small>
             {% endblock %}
           </h1>
         </section>
@@ -210,16 +218,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
-
-      <!-- Main Footer -->
-      <footer class="main-footer">
-        <!-- To the right -->
-        <div class="pull-right hidden-xs">
-          Anything you want
-        </div>
-        <!-- Default to the left -->
-        <strong>Copyright &copy; 2015 <a href="#">Bumpscientist Labs</a>.</strong> All rights reserved.
-      </footer>
 
       <!-- Add the sidebar's background. This div must be placed
            immediately after the control sidebar -->
