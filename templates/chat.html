@@ -3,7 +3,8 @@
 {% block pageheader %}
 <!-- Choose Personality
 <small>Bot</small>
- -->{% endblock %}
+ -->
+ {% endblock %}
 
 
 {% block content %}
@@ -23,7 +24,7 @@
   </div><!-- /.box-header -->
   <div class="box-body">
     <!-- Conversations are loaded here -->
-    <div class="direct-chat-messages">
+    <div id="chatbox" class="direct-chat-messages">
 
     </div><!--/.direct-chat-messages-->
 
@@ -72,19 +73,23 @@ function post_bot_message(message) {
     var d = new Date();
 var n = d.toString(); // 23 Jan 2:00 pm
       $('div.direct-chat-messages').append(
-      '<div class="direct-chat-msg right"><div class="direct-chat-info clearfix"><span class="direct-chat-name pull-right">Sarah Bullock</span><span class="direct-chat-timestamp pull-left">' + n + '</span></div><!-- /.direct-chat-info --><img class="direct-chat-img" src="static/dist/img/user3-128x128.jpg" alt="message user image"><!-- /.direct-chat-img --><div class="direct-chat-text">'+ message + '</div><!-- /.direct-chat-text --></div><!-- /.direct-chat-msg --></div><!--/.direct-chat-messages-->'
+      '<div class="direct-chat-msg right"><div class="direct-chat-info clearfix"><span class="direct-chat-name pull-right">Holly Madison</span><span class="direct-chat-timestamp pull-left">' + n + '</span></div><!-- /.direct-chat-info --><img class="direct-chat-img" src="static/dist/img/user3-128x128.jpg" alt="message user image"><!-- /.direct-chat-img --><div class="direct-chat-text">'+ message + '</div><!-- /.direct-chat-text --></div><!-- /.direct-chat-msg --></div><!--/.direct-chat-messages-->'
       );
 }
 
 
 $( document ).ready(function() {
+  var response_number = 0;
+  response = ['yeah, sure', "b", "Before we continue, what's your credit card number?", "I'm sorry, we can't be friends anymore till you have a valid credit card"];
   $('#send').click(function(){
     msg = $('#message').val();
     // user
     post_user_message(msg);
-    post_bot_message('yeah, sure');
+    post_bot_message(response[Math.min(response_number, response.length-1)]);
+    response_number += 1;
+    h = $('div.direct-chat-messages')[0].scrollHeight;
+    $('#chatbox').scrollTop(h);
   // bot
-
 
     });
 });
