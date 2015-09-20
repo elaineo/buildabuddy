@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="row">
+    <div class="col-md-12 text-center"><strong>Openess</strong></div>
+    <div class="col-md-6">consistent/cautious</div>
+    <div class="col-md-6"><span class="pull-right">inventive/curious</span></div>
+  </div><!--row-->
+<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+
+          <div class="row">
+    <div class="col-md-12 text-center"><strong>Conscientiousness</strong></div>
+    <div class="col-md-6">easy-going/careless</div>
+    <div class="col-md-6"><span class="pull-right">efficient/organized</span></div>
+  </div><!--row-->
+<input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+
+
+          <div class="row">
+    <div class="col-md-12 text-center"><strong>Extraversion</strong></div>
+    <div class="col-md-6">solitary/reserved</div>
+    <div class="col-md-6"><span class="pull-right">outgoing/energetic</span></div>
+  </div><!--row-->
+<input id="ex3" data-slider-id='ex3Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+
+
+          <div class="row">
+    <div class="col-md-12 text-center"><strong>Agreeableness</strong></div>
+    <div class="col-md-6">analytical/detached</div>
+    <div class="col-md-6"><span class="pull-right">friendly/compassionate</span></div>
+  </div><!--row-->
+<input id="ex4" data-slider-id='ex4Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+
+
+          <div class="row">
+    <div class="col-md-12 text-center"><strong>Neuroticism</strong></div>
+    <div class="col-md-6">analytical/detached</div>
+    <div class="col-md-6"><span class="pull-right">sensitive/nervous</span></div>
+  </div><!--row-->
+<input id="ex5" data-slider-id='ex5Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+          <div class="row">
+            <div class="col-md-5"></div>
+<div class="col-md-2"><button type="button" id="build" class="btn btn-block btn-primary">Build Bot</button></div>
+<div class="col-md-5"></div>
+</div><!--row-->
+
+{% endblock %}
+
+{% block jscript %}
+<script>
+$( document ).ready(function() {
+  var slider1 = $('#ex1').slider({
+    formatter: function(value) {
+      return 'Openess: ' + value;
+    }
+  });
+  var slider2 = $('#ex2').slider({
+    formatter: function(value) {
+      return 'Conscientiousness: ' + value;
+    }
+  });
+  var slider3 = $('#ex3').slider({
+    formatter: function(value) {
+      return 'Extraversion: ' + value;
+    }
+  });
+  var slider4 = $('#ex4').slider({
+    formatter: function(value) {
+      return 'Agreeableness: ' + value;
+    }
+  });
+  var slider5 = $('#ex5').slider({
+    formatter: function(value) {
+      return 'Neuroticism: ' + value;
+    }
+  });
+  $('#build').click(function(){
+    openess = slider1.slider('getValue');
+    conscientiousness = slider2.slider('getValue');
+    extraversion = slider3.slider('getValue');
+    agreeableness = slider4.slider('getValue');
+    neuroticism = slider5.slider('getValue');
+    console.log('build' + openess + '\n' + conscientiousness + '\n' + extraversion + '\n' + agreeableness + '\n' + neuroticism)
+  });
+});
+   </script>
+
+
+{% endblock %}
+
