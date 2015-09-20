@@ -85,10 +85,16 @@ $( document ).ready(function() {
     msg = $('#message').val();
     // user
     post_user_message(msg);
-    post_bot_message(response[Math.min(response_number, response.length-1)]);
-    response_number += 1;
     h = $('div.direct-chat-messages')[0].scrollHeight;
     $('#chatbox').scrollTop(h);
+
+    reply_msg = response[Math.min(response_number, response.length-1)];
+    response_number += 1;
+    setTimeout(function(){
+      post_bot_message(reply_msg);
+      h = $('div.direct-chat-messages')[0].scrollHeight;
+      $('#chatbox').scrollTop(h);
+    }, 1500);
   // bot
 
     });
