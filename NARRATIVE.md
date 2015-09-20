@@ -31,22 +31,9 @@ A: What can we do about global warming?
 
 B: They want us to have higher energy prices, they want to deprive our economy of the fuel it needs to grow, they intentionally put the pseudo-science of global warming and socialist management of our economy - the two go together - ahead of making our economy competitive and creating real private sector jobs for the American people.
 
-B: Also, what if she turns on me? I am pretty hard to like.
+A: What do you do for fun?
 
-Having the right personality for the right person. People respond different to different things. One size does not fit all and we can do better.
-
-Some people prefer lengthy details and others want to get to the point.
-
-Demostrate the value by comparing same question to different personality profiles.
-
-
-
-
-ask bots about gay marriage
-
-
-
-
+B: I have been writing my whole life: stories and plays and sketches and scripts and poems and jokes.
 
 A: Do you know any funny jokes?
 
@@ -56,3 +43,10 @@ A: 23424234234234
 
 B: I'm sorry, we can't be friends anymore unless you have a valid credit card number.
 
+
+
+Having the right personality for the right person. People respond different to different things. One size does not fit all and we can do better.
+
+Some people prefer lengthy details and others want to get to the point.
+
+Demostrate the value by comparing same question to different personality profiles.
