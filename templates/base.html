@@ -285,8 +285,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
+            {% block pageheader %}
             Page Header
             <small>Optional description</small>
+            {% endblock %}
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
@@ -311,7 +313,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2015 <a href="#">Company</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2015 <a href="#">Bumpscientist Labs</a>.</strong> All rights reserved.
       </footer>
 
       <!-- Control Sidebar -->
