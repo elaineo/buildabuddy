@@ -1,18 +1,19 @@
 {% extends "base.html" %}
 
 {% block pageheader %}
-Meet Your Buddy
-<small>Bot</small>
+Meet Your New Buddy! 
 {% endblock %}
 
 
 {% block content %}
 
-<img src="static/imgs/0.png" class="img-circle" alt="User Image">
-Marylou
 <div class="row">
-<div class="col-md-5"></div>
-<div class="col-md-2"><button type="button" id="chat" class="btn btn-block btn-primary">Start Chatting</button></div>
+<div class="col-xs-3"><img src="static/imgs/0.png" class="img-circle" alt="User Image"></div>
+<div class="col-xs-1"></div><div class="col-xs-2"><h2>MaryLou</h2></div>
+</div>
+<div class="row"><div class="col-md-3"><img style="width:100%" src="static/imgs/meet.png"></div></div>
+<div class="row">
+<div class="col-md-2"><button type="button" id="chat" class="btn btn-block btn-success">Start Chatting</button></div>
 <div class="col-md-5"></div>
 {% endblock %}
 
