@@ -1,0 +1,4 @@
+---
+applications:
+- name: awesomeo
+  memory: 256M
