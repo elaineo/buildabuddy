@@ -1,29 +1,21 @@
-I used to chat with my friend online, but she disappeared recently. Her name was Ashley Madison.
+I used to chat with my online friend, but she disappeared recently. Her name was Ashley Madison.
 
-Today I am introducing Build-a-Buddy. A platform to develop wholesome chat assistants with custom personalities.
+As we all heard in the news, most of the woman on ashley were bots that chose from a random set of responses.
 
-(Tina Fey)
+What if you can do better? Today I am introducing Build-a-Buddy. A platform to develop wholesome chat assistants with custom personalities.
 
-A: What should I talk about?
+First we need to choose the personality traits you would like for your virtual friend.
 
-B: Hibiscus iced tea. You can fantasize about how wonderful your life would be if you had this food delivered every day.
+<next screen>
 
-Build-a-Buddy has real custom personality based on training data with real people, using the text from over a hundred autobiographies.
+We just created our first buddy, marylou.
 
-Choose the personality traits you would like for your virtual friend.
 <demo>
 
 A: "I have back pain. What should I do?"
 
 #laid-back bot
-B: Know your weaknesses. Have fun with it. 
-
-#Demonstrate settings for a neurotic bot
-
-A: "I have back pain. What should I do?"
-
-# neurotic bot
-B: Suck your stomach up and in, and wrap your buttocks toward the back, Pilates-style. Turn sideways. Lean back against a wall.
+B: Know your weaknesses. Have fun with it.
 
 The bots are trained to converse in any worldly topic.
 
@@ -43,6 +35,23 @@ A: 23424234234234
 
 B: I'm sorry, we can't be friends anymore unless you have a valid credit card number.
 
+How did we build a buddy?
+
+Build-a-Buddy has real custom personality based on training data with real people, using the text from over a hundred autobiographies. These aren't canned responses. These are real personalities.
+
+
+<old>
+
+
+(Tina Fey)
+
+A: What should I talk about?
+
+B: Hibiscus iced tea. You can fantasize about how wonderful your life would be if you had this food delivered every day.
+
+
+Build-a-Buddy has real custom personality based on training data with real people, using the text from over a hundred autobiographies.
+
 
 
 Having the right personality for the right person. People respond different to different things. One size does not fit all and we can do better.
@@ -50,3 +59,11 @@ Having the right personality for the right person. People respond different to d
 Some people prefer lengthy details and others want to get to the point.
 
 Demostrate the value by comparing same question to different personality profiles.
+
+#Demonstrate settings for a neurotic bot
+
+A: "I have back pain. What should I do?"
+
+# neurotic bot
+B: Suck your stomach up and in, and wrap your buttocks toward the back, Pilates-style. Turn sideways. Lean back against a wall.
+
