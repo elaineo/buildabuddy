@@ -335,7 +335,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <input id="ex5" data-slider-id='ex5Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
           <div class="row">
             <div class="col-md-5"></div>
-<div class="col-md-2"><button type="button" class="btn btn-block btn-primary">Build Bot</button></div>
+<div class="col-md-2"><button type="button" id="build" class="btn btn-block btn-primary">Build Bot</button></div>
 <div class="col-md-5"></div>
 </div>
         </section><!-- /.content -->
@@ -429,13 +429,41 @@ scratch. This page gets rid of all links and provides the needed markup only.
          user experience. Slimscroll is required when using the
          fixed layout. -->
    <script>
-   $( document ).ready(function() {
-$('#ex1, #ex2, #ex3, #ex4, #ex5').slider({
-  formatter: function(value) {
-    return 'Current value: ' + value;
-  }
+$( document ).ready(function() {
+  var slider1 = $('#ex1').slider({
+    formatter: function(value) {
+      return 'Openess: ' + value;
+    }
+  });
+  var slider2 = $('#ex2').slider({
+    formatter: function(value) {
+      return 'Current value: ' + value;
+    }
+  });
+  var slider3 = $('#ex3').slider({
+    formatter: function(value) {
+      return 'Current value: ' + value;
+    }
+  });
+  var slider4 = $('#ex4').slider({
+    formatter: function(value) {
+      return 'Current value: ' + value;
+    }
+  });
+  var slider5 = $('#ex5').slider({
+    formatter: function(value) {
+      return 'Current value: ' + value;
+    }
+  });
+  $('#build').click(function(){
+    openess = slider1.slider('getValue');
+    conscientiousness = slider2.slider('getValue');
+    extraversion = slider3.slider('getValue');
+    agreeableness = slider4.slider('getValue');
+    neuroticism = slider5.slider('getValue');
+    console.log('build' + openess + '\n' + conscientiousness + '\n' + extraversion + '\n' + agreeableness + '\n' + neuroticism)
+  });
 });
-    });
    </script>
   </body>
 </html>
