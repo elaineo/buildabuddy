@@ -15,12 +15,15 @@ def hello():
 def chat():
     return render_template('chat.html')
 
-
 @app.route("/search")
 def search():
     data = request.data
     data = json.loads(data)
     return find_bot(data.get("personality"))
+
+@app.route("/meet")
+def meet():
+    return render_template('meet.html')
 
 
 if __name__ == "__main__":
