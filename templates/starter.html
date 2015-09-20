@@ -17,6 +17,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
+    <link rel="stylesheet" href="static/plugins/bootstrap-slider/slider.css">
     <link rel="stylesheet" href="static/dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
           page. However, you can choose any other skin. Make sure you
@@ -31,6 +32,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <style>
+  #ex1Slider .slider-selection {
+  background: #BABABA;
+}
+  #ex2Slider .slider-selection {
+  background: #BABABA;
+  }
+  #ex3Slider .slider-selection {
+  background: #BABABA;
+  }
+  #ex4Slider .slider-selection {
+  background: #BABABA;
+  }
+  #ex5Slider .slider-selection {
+  background: #BABABA;
+  }
+
+  </style>
   <!--
   BODY TAG OPTIONS:
   =================
@@ -276,8 +295,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Main content -->
         <section class="content">
+          Openess
+<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+          C
+<input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+E
+<input id="ex3" data-slider-id='ex3Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+A
+<input id="ex4" data-slider-id='ex4Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+N
+<input id="ex5" data-slider-id='ex5Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
 
-          <!-- Your Page Content Here -->
+
 
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
@@ -362,11 +391,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/plugins/bootstrap-slider/bootstrap-slider.js"></script>
     <!-- AdminLTE App -->
     <script src="static/dist/js/app.min.js"></script>
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
          Both of these plugins are recommended to enhance the
          user experience. Slimscroll is required when using the
          fixed layout. -->
+   <script>
+   $( document ).ready(function() {
+$('#ex1, #ex2, #ex3, #ex4, #ex5').slider({
+  formatter: function(value) {
+    return 'Current value: ' + value;
+  }
+});
+    });
+   </script>
   </body>
 </html>
