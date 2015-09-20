@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog xsi:noNamespaceSchemaLocation="WatsonDialogDocument_1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <flow>
+        <folder label="Main">
+            <output>
+                <prompt selectionType="RANDOM">
+                    <item>Hello!</item>
+                    <item>Salud!</item>
+                    <item>Yo</item>
+                    <item>Herro.</item>
+                </prompt>
+                <goto ref="getUserInput_2442994"/>
+            </output>
+            <output>
+                <prompt selectionType="RANDOM">
+                    <item>Did you have any other questions today?</item>
+                </prompt>
+                <getUserInput id="getUserInput_2442994">
+                    <search ref="folder_2442998"/>
+                    <default>
+                        <output>
+                            <prompt selectionType="RANDOM">
+                                <item>I'm sorry I did not understand your question, please try again.</item>
+                            </prompt>
+                        </output>
+                    </default>
+                </getUserInput>
+            </output>
+        </folder>
+        <folder label="Library">
+            <folder label="Live Content" id="folder_2442998">
+               <input><grammar><item>*writings*</item></grammar><output><prompt selectionType="RANDOM"><item>And you are being asked to square the circle, to find a military solution to a political crisis.\u201d Fortunately, when he got to Iraq, Petraeus followed a strategy that looked a lot more like what he had advocated for in his writings and what I had pressed him on during the hearing instead of the Bush Administration\u2019s approach to date. Petraeus\u2019s comprehensive counterinsurgency strategy became known as COIN.</item><item>\u201cYou wrote the book, General, but the policy is not by the book. And you are being asked to square the circle, to find a military solution to a political crisis.\u201d Fortunately, when he got to Iraq, Petraeus followed a strategy that looked a lot more like what he had advocated for in his writings and what I had pressed him on during the hearing instead of the Bush Administration\u2019s approach to date.</item><item>I spent hours talking with Erdo\u011fan, often accompanied only by Davuto\u011flu, who served as our interpreter. Davuto\u011flu is an exuberant academic turned diplomat and politician, and his writings about how Turkey could regain a position of global importance dovetailed with Erdo\u011fan\u2019s own thoughts.</item><item>Davuto\u011flu is an exuberant academic turned diplomat and politician, and his writings about how Turkey could regain a position of global importance dovetailed with Erdo\u011fan\u2019s own thoughts. He brought passion and erudition to his position, and we developed a productive and friendly working relationship that, though strained numerous times, never ruptured.</item><item>Petraeus\u2019s comprehensive counterinsurgency strategy became known as COIN. It focused on protecting civilian population centers and winning Iraqis\u2019 \u201chearts and minds\u201d through relationship-building and development projects.</item></prompt></output></input><input><grammar><item>*overreaches*</item></grammar><output><prompt selectionType="RANDOM"><item>We were back on the high wire, performing the balancing act without easy answers or good options. In July 2013, with millions of Egyptians again protesting in the streets, this time against the overreaches of the Morsi government, the military under Tantawi\u2019s successor, General AbdulFattah el-Sisi, stepped in a second time.</item><item>In July 2013, with millions of Egyptians again protesting in the streets, this time against the overreaches of the Morsi government, the military under Tantawi\u2019s successor, General AbdulFattah el-Sisi, stepped in a second time. They removed Morsi and began an aggressive new crackdown on the Muslim Brotherhood.</item><item>They removed Morsi and began an aggressive new crackdown on the Muslim Brotherhood. As of 2014, the prospects for Egyptian democracy do not look bright.</item><item>I wasn\u2019t sure how we could be accused of both aiding and foiling the Muslim Brotherhood, but logic never gets in the way of a good conspiracy theory. When I returned to Egypt in July 2012, I found the streets of Cairo once again seething with protests.</item><item>This time there would be no attempt to reverse the results or steal the election. Crowds gathered in the streets chanting, \u201cLong live reform.\u201d Rouhani took office in August and immediately began making conciliatory statements toward the international community and even tweeted good wishes on Rosh Hashanah, the Jewish New Year.</item></prompt></output></input><input><grammar><item>*yellow*</item></grammar><output><prompt selectionType="RANDOM"><item>It was a constant reminder that the troubles of the world were never far from home. At 9:36 on the night of Wednesday, April 25, 2012, the yellow phone rang.</item><item>They installed a bright yellow secure telephone so that even at odd hours of the night, I could speak to the President or an Ambassador in some faraway embassy about sensitive topics. It was a constant reminder that the troubles of the world were never far from home.</item><item>Before we sat down, I presented him with a small green box, complete with a ribbon. While the cameras snapped away, I opened it and pulled out a bright red button on a yellow base that had been pulled off the whirlpool in the hotel.</item><item>At 9:36 on the night of Wednesday, April 25, 2012, the yellow phone rang. It was my Director of Policy Planning and Deputy Chief of Staff Jake Sullivan, calling from his own secure line on the seventh floor of the State Department, where he\u2019d hastily returned from a rare night off.</item><item>5  Beijing: The Dissident  Shortly after I was confirmed as Secretary, a team of engineers descended on our home in northwest Washington. They installed a bright yellow secure telephone so that even at odd hours of the night, I could speak to the President or an Ambassador in some faraway embassy about sensitive topics.</item></prompt></output></input><input><grammar><item>*narcotic*</item></grammar><output><prompt selectionType="RANDOM"><item>The men wore large curved daggers at their belts, and quite a few carried Kalashnikov rifles. Many of the men were chewing khat leaves, the Yemeni narcotic of choice.</item><item>Many of the men were chewing khat leaves, the Yemeni narcotic of choice. I was in a wide armored SUV that could barely fit through the narrow streets.</item><item>Most of the women wore veils, either headscarves called hijab or the more extensive face coverings called niqab. The men wore large curved daggers at their belts, and quite a few carried Kalashnikov rifles.</item><item>I want them to stand up.\u201d Mandela called them by name and three middle-aged white men stood up. He explained that in the midst of the terrible conditions in which he was held for so many years, each of those men saw him as a human being.</item><item>I was in a wide armored SUV that could barely fit through the narrow streets. The car came so close to some of the walls of the shops and houses that if the windows had been open, I could have reached inside.</item></prompt></output></input><input><grammar><item>*four*</item></grammar><output><prompt selectionType="RANDOM"><item>It was not the first time. Over the previous four years the Sudanese had accused Israel of conducting several air strikes against targets in their country.</item><item>I left it in the same place I had found Condi\u2019s note to me four years before that. Then I signed my letter of resignation to the President.</item><item>Over the previous four years the Sudanese had accused Israel of conducting several air strikes against targets in their country. Just that September, a shipment of rockets and munitions bound for Gaza was destroyed south of Khartoum.</item><item>This shuffle confirmed what I had said four years before: that Medvedev was just keeping Putin\u2019s chair warm. Then, in December, Russia\u2019s Parliamentary elections were marred by widespread reports of fraud.</item><item>Ambassador had been killed in the line of duty. Four Americans were dead.</item></prompt></output></input><input><grammar><item>*woods*</item></grammar><output><prompt selectionType="RANDOM"><item>Memories of Benghazi will stay with me always, and they will shape the way America\u2019s diplomats do their jobs in the future. But we should remember Chris Stevens, Sean Smith, Glen Doherty, and Tyrone Woods as much for how they lived as for how they died.</item><item>A first planeload of Americans took off at 7:30 A.M. A second plane evacuated the rest, including the bodies of Sean Smith, Glen Doherty, Tyrone Woods, and Chris Stevens, which had arrived from the hospital. By noon all U.S. personnel from Benghazi were finally in Tripoli.</item><item>About an hour later Libyan government security forces, who had dispersed when the CIA post was hit by the mortar attack, returned to provide escort to the airport. A first planeload of Americans took off at 7:30 A.M. A second plane evacuated the rest, including the bodies of Sean Smith, Glen Doherty, Tyrone Woods, and Chris Stevens, which had arrived from the hospital.</item><item>Two CIA officers, Glen Doherty and Tyrone Woods, were killed hours later during an attack on the Agency\u2019s nearby compound. Sean Smith had joined the State Department after six years in the Air Force and served for a decade at our embassies and consulates in Pretoria, Baghdad, Montreal, and The Hague.</item><item>But we should remember Chris Stevens, Sean Smith, Glen Doherty, and Tyrone Woods as much for how they lived as for how they died. They all volunteered to serve their country where security was far from assured because those were the places where American interests and values were most at stake and they were most needed.</item></prompt></output></input><input><grammar><item>*ornate*</item></grammar><output><prompt selectionType="RANDOM"><item>I convened the leaders and their negotiating teams in the ornate Benjamin Franklin Room on the eighth floor. It was time to roll up our sleeves and see what we could accomplish.</item><item>The next day the drama moved to the State Department. I convened the leaders and their negotiating teams in the ornate Benjamin Franklin Room on the eighth floor.</item><item>With Chen safely at the hospital, it was time for dinner. Dai and Cui welcomed us to the Wanshousi Temple, a 16th-century complex of quiet courtyards and ornate villas that houses a large collection of ancient artifacts.</item><item>It was a precarious balance. We moved to my dining room and joined Kurt, Derek, and Cheryl Mills.</item><item>Dai and Cui welcomed us to the Wanshousi Temple, a 16th-century complex of quiet courtyards and ornate villas that houses a large collection of ancient artifacts. Dai proudly gave me a tour, and as we admired the jade figurines and graceful calligraphy, the sense of relief was palpable.</item></prompt></output></input><input><grammar><item>*cyprus*</item></grammar><output><prompt selectionType="RANDOM"><item>A Zero Problems foreign policy was an ambitious goal, especially because Turkey was entangled in a number of long-running disputes with its neighbors. There was the bitter standoff with Greece over the Mediterranean island nation of Cyprus that had dragged on for decades.</item><item>There was the bitter standoff with Greece over the Mediterranean island nation of Cyprus that had dragged on for decades. There was also the emotionally charged conflict with Armenia, a small, landlocked former Soviet republic in the Caucasus to Turkey\u2019s east.</item><item>And our relationship will remain of vital importance to the United States. A Zero Problems foreign policy was an ambitious goal, especially because Turkey was entangled in a number of long-running disputes with its neighbors.</item><item>There was also the emotionally charged conflict with Armenia, a small, landlocked former Soviet republic in the Caucasus to Turkey\u2019s east. These were both examples of how old enmities could hold back new progress.</item><item>Turkey and Armenia never established official diplomatic relations when Armenia emerged as an independent nation after the breakup of the Soviet Union. Tensions were further heightened by Armenia\u2019s war in the early 1990s with Turkey\u2019s ally Azerbaijan over a contested strip of land called Nagorno-Karabakh.</item></prompt></output></input><input><grammar><item>*aggression*</item></grammar><output><prompt selectionType="RANDOM"><item>Others, including Ukraine, Bosnia, Moldova, and Georgia, were exploring the possibilities of future European Union and NATO membership. In the wake of Russia\u2019s illegal annexation of Crimea in early 2014, some have argued that NATO expansion either caused or exacerbated Russia\u2019s aggression.</item><item>In the wake of Russia\u2019s illegal annexation of Crimea in early 2014, some have argued that NATO expansion either caused or exacerbated Russia\u2019s aggression. I disagree with that argument, but the most convincing voices refuting it are those European leaders and people who express their gratitude for NATO membership.</item><item>Should the United States stop negotiating on arms control or trade because we objected to Russia\u2019s aggression in Georgia? Or should issues proceed on parallel tracks?</item><item>The loss of that plane was a dramatic reminder that this crisis could explode into a regional conflict at any moment. In my meetings I affirmed that the United States and the rest of our NATO allies were committed to Turkey\u2019s security against Syrian aggression.</item><item>Those who give credence to Putin\u2019s position should ponder how much more serious the crisis would be\u2014and how much more difficult it would be to contain further Russian aggression if Eastern and Central European nations were not now NATO allies. The NATO door should remain open, and we should be clear and tough-minded in dealing with Russia.</item></prompt></output></input><input><grammar><item>*marching*</item></grammar><output><prompt selectionType="RANDOM"><item>Citizens marching peacefully were beaten with batons and arrested en masse. Political opponents were rounded up and abused, and several people were killed.</item><item>With their marching orders in hand, my troops filed out of the suite looking worried and beyond tired. None of us would sleep much that night.</item><item>Third, I would carry on with the scheduled Strategic and Economic Dialogue events as if nothing had happened, in keeping with my understanding with Dai. With their marching orders in hand, my troops filed out of the suite looking worried and beyond tired.</item><item>Nine Turkish citizens were killed, including one American with dual citizenship. I received an urgent call from Ehud Barak while I was marching in the Chappaqua Memorial Day parade, one of my favorite annual traditions in our small town.</item><item>I received an urgent call from Ehud Barak while I was marching in the Chappaqua Memorial Day parade, one of my favorite annual traditions in our small town. \u201cWe\u2019re not happy with the results, but we had to make tough choices.</item></prompt></output></input>
+                <input>
+                    <grammar>
+                        <item>What toppings do you have?</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>We have pepperoni, mushrooms, and sausage.</item>
+                        </prompt>
+                    </output>
+                </input>
+                <input>
+                    <grammar>
+                        <item>What food do you sell</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>Are you looking for appetizers, entrees, or drinks?</item>
+                        </prompt>
+                        <getUserInput>
+                            <input>
+                                <grammar>
+                                    <item>Appetizers</item>
+                                </grammar>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>We have breadsticks and chicken wings</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                            <input>
+                                <grammar>
+                                    <item>Entrees</item>
+                                </grammar>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>Our main dish is pizza</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                            <input>
+                                <grammar>
+                                    <item>Drinks</item>
+                                </grammar>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>We have Pepsi and Root Beer</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                        </getUserInput>
+                    </output>
+                </input>
+                <input>
+                    <grammar>
+                        <item>What type of pizza do you have?</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>We have &lt;b&gt;four&lt;/b&gt; types of pizza: &lt;ul&gt;&lt;li&gt;[Meat_Pizza]&lt;/li&gt;&lt;li&gt;veggie&lt;/li&gt;&lt;li&gt;plain cheese&lt;/li&gt;&lt;li&gt;everything on top&lt;/li&gt;&lt;/ul&gt;</item>
+                        </prompt>
+                    </output>
+                </input>
+                <input>
+                    <grammar>
+                        <item>Do you deliver?</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>Yes we do. What is your zip code?</item>
+                        </prompt>
+                        <getUserInput>
+                            <input>
+                                <grammar>
+                                    <item>12345</item>
+                                </grammar>
+                                <action varName="ZipCode" operator="SET_TO">12345</action>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>Great, we deliver to your area!</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                            <input>
+                                <grammar>
+                                    <item>23456</item>
+                                </grammar>
+                                <action varName="ZipCode" operator="SET_TO">23456</action>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>Okay, we can deliver right to you!</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                            <input>
+                                <grammar>
+                                    <item>34567</item>
+                                </grammar>
+                                <action varName="ZipCode" operator="SET_TO">34567</action>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>We can deliver right to your door!</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                            <output>
+                                <prompt>
+                                    <item>I'm sorry, we do not deliver to your area</item>
+                                </prompt>
+                            </output>
+                        </getUserInput>
+                    </output>
+                </input>
+                <input>
+                    <grammar>
+                        <item>I want to order a pizza</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>Do you want to place your order with me now?</item>
+                        </prompt>
+                        <getUserInput>
+                            <input>
+                                <grammar>
+                                    <item>Yes</item>
+                                </grammar>
+                                <goto ref="output_2443132"/>
+                            </input>
+                            <input>
+                                <grammar>
+                                    <item>No</item>
+                                </grammar>
+                                <output>
+                                    <prompt selectionType="RANDOM">
+                                    <item>Okay, let me know if you change your mind</item>
+                                    </prompt>
+                                </output>
+                            </input>
+                        </getUserInput>
+                    </output>
+                </input>
+                <input>
+                    <grammar>
+                        <item>Do you have (Toppings)?</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>Yes, our list of toppings is as follows:
+&lt;ul&gt;&lt;li&gt;Pepperoni&lt;/li&gt;&lt;li&gt;Mushrooms&lt;/li&gt;&lt;li&gt;Sausage&lt;/li&gt;&lt;li&gt;Onions&lt;/li&gt;&lt;li&gt;Peppers&lt;/li&gt;&lt;li&gt;Anchovy&lt;/li&gt;&lt;li&gt;Pineapple&lt;/li&gt;&lt;li&gt;Chicken&lt;/li&gt;&lt;li&gt;Broccoli&lt;/li&gt;&lt;li&gt;Pesto&lt;/li&gt;&lt;li&gt;Garlic&lt;/li&gt;&lt;li&gt;Shrimp&lt;/li&gt;&lt;li&gt;Olives&lt;/li&gt;&lt;/ul&gt;</item>
+                        </prompt>
+                    </output>
+                </input>
+                <input>
+                    <grammar>
+                        <item>Please call me</item>
+                    </grammar>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>Okay, what is your number?</item>
+                        </prompt>
+                        <getUserInput>
+                            <input>
+                                <grammar>
+                                    <item>My number is</item>
+                                    <item>! \d{10}</item>
+                                    <item>! \d{3}-\d{3}-\d{4}</item>
+                                    <item>! \d{3}.\d{3}.\d{4}</item>
+                                    <item>! \d{3} \d{3} \d{4}</item>
+                                    <item>! \d{3} \d{7}</item>
+                                </grammar>
+                                <output>
+                                    <prompt/>
+                                    <action varName="Phone_Number" operator="SET_TO_USER_INPUT"/>
+                                    <function>
+                                    <script name="Calculate">Name=Calculate
+
+Line= "{Phone_Number}".replace(/-/g, "").replace("(", "").replace(")", "").replace(/ /g, "")</script>
+                                    <output>
+                                    <prompt/>
+                                    <action
+                                    varName="Phone_Number" operator="SET_TO">{MCT:CUSTOM:Calculate:value}</action>
+                                    <output>
+                                    <prompt/>
+                                    <action
+                                    varName="Phone_Number" operator="SET_TO">({Phone_Number}</action>
+                                    <function>
+                                    <script name="Calculate">Name=Calculate
+
+Line= "{Phone_Number}".replace(/(\d)(?=(\d\d\d\d\d\d\d)+(?!\d))/, "$1) ")</script>
+                                    <output>
+                                    <prompt/>
+                                    <action
+                                    varName="Phone_Number" operator="SET_TO">{MCT:CUSTOM:Calculate:value}</action>
+                                    <function>
+                                    <script name="Calculate">Name=Calculate
+
+Line= "{Phone_Number}".replace(/(\d)(?=(\d\d\d\d)+(?!\d))/, "$1-")</script>
+                                    <output>
+                                    <prompt/>
+                                    <action
+                                    varName="Phone_Number" operator="SET_TO">{MCT:CUSTOM:Calculate:value}</action>
+                                    <output>
+
+                                    <prompt selectionType="RANDOM">
+                                    <item>We will have an agent call you at &lt;br&gt;
+{Phone_Number}</item>
+                                    </prompt>
+                                    </output>
+                                    </output>
+                                    </function>
+                                    </output>
+                                    </function>
+                                    </output>
+                                    </output>
+                                    </function>
+                                </output>
+                            </input>
+                        </getUserInput>
+                    </output>
+                </input>
+            </folder>
+            <folder label="Zip Code Capture">
+                <output id="output_2456237">
+                    <prompt selectionType="RANDOM">
+                        <item>What is your zip code?</item>
+                    </prompt>
+                    <getUserInput>
+                        <input>
+                            <grammar>
+                                <item>12345</item>
+                            </grammar>
+                            <action varName="ZipCode" operator="SET_TO">12345</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <input>
+                            <grammar>
+                                <item>23456</item>
+                            </grammar>
+                            <action varName="ZipCode" operator="SET_TO">23456</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <input>
+                            <grammar>
+                                <item>34567</item>
+                            </grammar>
+                            <action varName="ZipCode" operator="SET_TO">34567</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <output>
+                            <prompt selectionType="RANDOM">
+                                <item>I'm sorry, we do not deliver to your area</item>
+                            </prompt>
+                        </output>
+                    </getUserInput>
+                </output>
+            </folder>
+            <folder label="Pizza Ordering">
+                <output id="output_2443132">
+                    <prompt selectionType="RANDOM">
+                        <item>What type of pizza do you want?</item>
+                    </prompt>
+                    <getUserInput>
+                        <input>
+                            <grammar>
+                                <item>Meat Lovers</item>
+                                <item>$ [Meat_Pizza]</item>
+                            </grammar>
+                            <action varName="PizzaType" operator="SET_TO">[Meat_Pizza]</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <input>
+                            <grammar>
+                                <item>Veggie</item>
+                                <item>$ Veggie</item>
+                            </grammar>
+                            <action varName="PizzaType" operator="SET_TO">Veggie</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <input>
+                            <grammar>
+                                <item>Cheese</item>
+                                <item>$ Cheese</item>
+                            </grammar>
+                            <action varName="PizzaType" operator="SET_TO">Cheese</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <input>
+                            <grammar>
+                                <item>Everything on top</item>
+                                <item>$ everything</item>
+                            </grammar>
+                            <action varName="PizzaType" operator="SET_TO">Everything on top</action>
+                            <goto ref="profileCheck_2456241"/>
+                        </input>
+                        <input>
+                            <grammar>
+                                <item>Custom</item>
+                            </grammar>
+                            <output>
+                                <prompt selectionType="RANDOM">
+                                    <item>Sure thing, what type of toppings do you want?</item>
+                                </prompt>
+                                <getUserInput id="getUserInput_2456327">
+                                    <input>
+                                    <grammar>
+                                    <item>I want (Toppings)</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} * (Toppings)={Topping3} * (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} * (Toppings)={Topping3} (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} (Toppings)={Topping3} * (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2} * (Toppings)={Topping3} * (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2} (Toppings)={Topping3} * (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} (Toppings)={Topping3} (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2} * (Toppings)={Topping3} (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2} (Toppings)={Topping3} (Toppings)={Topping4}</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} * (Toppings)={Topping3}</item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2} * (Toppings)={Topping3}</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} (Toppings)={Topping3}</item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2} (Toppings)={Topping3}</item>
+                                    <item>$ (Toppings)={Topping1} * (Toppings)={Topping2} </item>
+                                    <item>$ (Toppings)={Topping1} (Toppings)={Topping2}</item>
+                                    <item>$ (Toppings)={Topping1}</item>
+                                    </grammar>
+                                    <output>
+                                    <prompt/>
+                                    <action varName="Topping1" operator="SET_TO">{Topping1.value:main}</action>
+                                    <action varName="Topping2" operator="SET_TO">{Topping2.value:main}</action>
+                                    <action varName="Topping3" operator="SET_TO">{Topping3.value:main}</action>
+                                    <action varName="Topping4" operator="SET_TO">{Topping4.value:main}</action>
+                                    <if matchType="ANY">
+                                    <cond varName="Topping1" operator="HAS_VALUE"/>
+                                    <if matchType="ANY">
+                                    <cond
+                                    varName="Topping1" operator="EQUALS">{Topping2}</cond>
+                                    <cond
+                                    varName="Topping1" operator="EQUALS">{Topping3}</cond>
+                                    <cond
+                                    varName="Topping1" operator="EQUALS">{Topping4}</cond>
+                                    <output id="output_2456510">
+                                    <prompt selectionType="RANDOM">
+                                    <item>Oops! It looks like you've repeated some toppings there, we wouldn't want to charge you twice for the same thing! Let's try that again.</item>
+                                    </prompt>
+                                    <goto ref="getUserInput_2456327"/>
+                                    </output>
+                                    </if>
+                                    <output id="output_2456511">
+                                    <prompt selectionType="RANDOM">
+                                    <item>That pizza sounds delicious. Let me make sure I have all the info I need and then we can review your order.</item>
+                                    </prompt>
+                                    <goto ref="profileCheck_2456241"/>
+                                    </output>
+                                    </if>
+                                    <if>
+                                    <cond varName="Topping2" operator="HAS_VALUE"/>
+                                    <if>
+                                    <cond
+                                    varName="Topping2" operator="EQUALS">{Topping3}</cond>
+                                    <cond
+                                    varName="Topping2" operator="EQUALS">{Topping4}</cond>
+                                    <goto ref="output_2456510"/>
+                                    </if>
+                                    <goto ref="output_2456511"/>
+                                    </if>
+                                    <if>
+                                    <cond varName="Topping3" operator="HAS_VALUE"/>
+                                    <if>
+                                    <cond
+                                    varName="Topping3" operator="EQUALS">{Topping4}</cond>
+                                    <goto ref="output_2456510"/>
+                                    </if>
+                                    <goto ref="output_2456511"/>
+                                    </if>
+                                    </output>
+                                    </input>
+                                </getUserInput>
+                            </output>
+                        </input>
+                    </getUserInput>
+                </output>
+            </folder>
+            <folder label="Check Out">
+                <if id="profileCheck_2456241">
+                    <cond varName="ZipCode" operator="HAS_VALUE"/>
+                    <if matchType="ANY">
+                        <cond varName="ZipCode" operator="EQUALS">12345</cond>
+                        <cond varName="ZipCode" operator="EQUALS">23456</cond>
+                        <cond varName="ZipCode" operator="EQUALS">34567</cond>
+                        <if>
+                            <cond varName="PizzaType" operator="HAS_VALUE"/>
+                            <output>
+                                <prompt selectionType="RANDOM">
+                                    <item>Here is a summary of your order: &lt;br&gt;
+Pizza: {PizzaType}
+Zip Code: {ZipCode}</item>
+                                </prompt>
+                            </output>
+                        </if>
+                        <if>
+                            <cond varName="Topping4" operator="HAS_VALUE"/>
+                            <output>
+                                <prompt selectionType="RANDOM">
+                                    <item>Here is a summary of your order:
+&lt;br&gt;Pizza with {Topping1}, {Topping2}, {Topping3} &amp; {Topping4}
+&lt;br&gt;Zip Code: {ZipCode}</item>
+                                </prompt>
+                            </output>
+                        </if>
+                        <if>
+                            <cond varName="Topping3" operator="HAS_VALUE"/>
+                            <output>
+                                <prompt selectionType="RANDOM">
+                                    <item>Here is a summary of your order:
+&lt;br&gt;Pizza with {Topping1}, {Topping2} &amp; {Topping3}
+&lt;br&gt;Zip Code: {ZipCode}</item>
+                                </prompt>
+                            </output>
+                        </if>
+                        <if>
+                            <cond varName="Topping2" operator="HAS_VALUE"/>
+                            <output>
+                                <prompt selectionType="RANDOM">
+                                    <item>Here is a summary of your order:
+&lt;br&gt;Pizza with {Topping1} &amp; {Topping2}
+&lt;br&gt;Zip Code: {ZipCode}</item>
+                                </prompt>
+                            </output>
+                        </if>
+                        <if>
+                            <cond varName="Topping1" operator="HAS_VALUE"/>
+                            <output>
+                                <prompt selectionType="RANDOM">
+                                    <item>Here is a summary of your order:
+&lt;br&gt;Pizza with {Topping1}
+&lt;br&gt;Zip Code: {ZipCode}</item>
+                                </prompt>
+                            </output>
+                        </if>
+                        <goto ref="output_2443132"/>
+                    </if>
+                    <output>
+                        <prompt selectionType="RANDOM">
+                            <item>I'm sorry, we don't deliver to your zip code.</item>
+                        </prompt>
+                    </output>
+                </if>
+                <goto ref="output_2456237"/>
+            </folder>
+            <folder label="Storage"/>
+        </folder>
+        <folder label="Global"/>
+        <folder label="Concepts">
+            <concept>
+                <grammar>
+                    <item>Pizza</item>
+                    <item>Pie</item>
+                    <item>Za</item>
+                    <item>Slice</item>
+                    <item>Pizza Pie</item>
+                </grammar>
+            </concept>
+        </folder>
+    </flow>
+    <entities>
+        <entity name="FACES_NAME">
+            <value name="Faces name query" value="David">
+                <grammar>
+                    <item>David</item>
+                </grammar>
+            </value>
+        </entity>
+        <entity name="Destination"/>
+        <entity name="Toppings">
+            <value name="Pepperoni" value="Pepperoni"/>
+            <value name="Mushrooms" value="Mushrooms"/>
+            <value name="Sausage" value="Sausage"/>
+            <value name="Onions" value="Onions"/>
+            <value name="Peppers" value="Peppers"/>
+            <value name="Anchovy" value="Anchovy"/>
+            <value name="Pineapple" value="Pineapple"/>
+            <value name="Chicken" value="Chicken"/>
+            <value name="Broccoli" value="Broccoli"/>
+            <value name="Pesto" value="Pesto"/>
+            <value name="Shrimp" value="Shrimp"/>
+            <value name="Garlic" value="Garlic"/>
+            <value name="Olives" value="Olives"/>
+        </entity>
+    </entities>
+    <constants>
+        <var_folder name="Home">
+            <var_folder name="General" type="CONST">
+                <var name="VA" type="TAG">Virtual Agent</var>
+                <var name="Meat_Pizza" type="TAG" description="The name of the meat pizza">Meat Lover's</var>
+            </var_folder>
+        </var_folder>
+    </constants>
+    <variables>
+        <var_folder name="Home">
+            <var name="ZipCode" type="TEXT" description="The user's zip code"/>
+            <var name="PizzaType" type="TEXT" description="What type of pizza the user has ordered"/>
+            <var name="Topping1" type="TEXT"/>
+            <var name="Topping2" type="TEXT"/>
+            <var name="Topping3" type="TEXT"/>
+            <var name="Topping4" type="TEXT"/>
+            <var name="Phone_Number" type="TEXT"/>
+        </var_folder>
+    </variables>
+    <settings>
+        <setting name="USERIDNUM" type="USER">17384</setting>
+        <setting name="EMAIL" type="USER"></setting>
+        <setting name="PASSWORD" type="USER"></setting>
+        <setting name="FIRSTNAME" type="USER">IBM</setting>
+        <setting name="LASTNAME" type="USER">Watson</setting>
+        <setting name="COUNTRY" type="USER">USA</setting>
+        <setting name="STATE" type="USER">NY State</setting>
+        <setting name="CITY" type="USER">NY</setting>
+        <setting name="BDAY" type="USER">1</setting>
+        <setting name="BMONTH" type="USER">1</setting>
+        <setting name="BYEAR" type="USER">2000</setting>
+        <setting name="SEX" type="USER">Male</setting>
+        <setting name="DISPLAYNAME" type="USER">Viney</setting>
+        <setting name="PROVIDESECURITYPASSWORD" type="USER">false</setting>
+        <setting name="SECURITYPASSWORD" type="USER"></setting>
+        <setting name="SHOWPERSPROFILE" type="USER">false</setting>
+        <setting name="USETYPE" type="USER">0</setting>
+        <setting name="DATEJOINED" type="USER">2015-07-14 15:12:07.745</setting>
+        <setting name="LASTLOGIN" type="USER">2015-07-14 15:12:07.745</setting>
+        <setting name="LOGINCOUNT" type="USER">0</setting>
+        <setting name="CREDIT" type="USER">100</setting>
+        <setting name="CONVCOUNT" type="USER">4</setting>
+        <setting name="PERSONALITYTYPEID" type="USER">6</setting>
+        <setting name="SHOWSENDMESSAGE" type="USER">true</setting>
+        <setting name="ACTIVATED" type="USER">true</setting>
+        <setting name="MESSENGEREMAIL" type="USER"></setting>
+        <setting name="MESSENGERPASSWORD" type="USER"></setting>
+        <setting name="SENDCHATEMAIL" type="USER">false</setting>
+        <setting name="SENDFAVEMAIL" type="USER">true</setting>
+        <setting name="CACHE" type="USER">true</setting>
+        <setting name="CLASSTYPE" type="USER">3</setting>
+        <setting name="AUTOLEARN" type="USER">false</setting>
+        <setting name="LANGUAGE" type="USER">EN</setting>
+        <setting name="RESPONSETIME" type="USER">-2</setting>
+        <setting name="MAXAUTOLEARNITEMS" type="USER">4</setting>
+        <setting name="NUMAUTOSETRELATED" type="USER">0</setting>
+        <setting name="TIMEZONEID" type="USER">America/New_York</setting>
+        <setting name="AUTOSETRELATEDNODEID" type="USER">0</setting>
+        <setting name="RETURNTOCHATNODEID" type="USER">0</setting>
+        <setting name="INPUTMASKTYPE" type="USER">0</setting>
+        <setting name="NUMLOGINATTEMPTS" type="USER">0</setting>
+        <setting name="CONCEPTMATCHING" type="USER">1</setting>
+        <setting name="UI_COLOUR"></setting>
+        <setting name="USE_CONCEPTS">3</setting>
+        <setting name="PARENT_ACCOUNT"></setting>
+        <setting name="AL_NONE_LABEL">None of the above</setting>
+        <setting name="ASR_RANDOM">true</setting>
+        <setting name="DYNAMIC_MESSAGING">false</setting>
+        <setting name="DOCBASE_NUM_RESULTS">3</setting>
+        <setting name="DOCBASE_DESC_LEN">250</setting>
+        <setting name="STATUS">0</setting>
+        <setting name="DEFAULT_DNR_RETURN_POINT_CANDIDATE">-1</setting>
+        <setting name="ENTITIES_SCOPE">3</setting>
+        <setting name="POSTNODEID"></setting>
+        <setting name="MULTISENT">0</setting>
+        <setting name="DNR_NODE_ID">-15</setting>
+        <setting name="CLEARCACHE"></setting>
+    </settings>
+    <specialSettings>
+        <specialSetting label="DNR Join Statement">
+            <variations/>
+        </specialSetting>
+    </specialSettings>
+</dialog>
